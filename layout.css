@@ -1,0 +1,143 @@
+body
+{
+    background: #E5E5E5;
+    font-family: 'Montserrat', sans-serif;
+  
+}
+
+.wrapper
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 1200px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1); 
+}
+.sidebar 
+{
+    background: #1E2939;
+    width: 370px;
+    margin-left: 40px;
+}
+.sidebar li::marker{
+    color: #FB6D3A;
+}
+.img
+{
+    margin-top: 25px;
+}
+.second-style
+{
+    color: #ffffff;
+    margin-top: 51px;
+    margin-left: 40px;
+    padding-left: 0px;
+   
+}
+.contact-links
+{
+    color: white;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 0px;
+    padding-left: 0px;
+    
+    
+}
+.bold{
+    font-weight: 700;     
+}
+
+
+    
+.list-secondary{
+    color: #ffffff;
+    padding-left: 0px;
+    list-style-position: inside;
+    
+}
+
+
+main
+{
+  
+    padding: 102px 88px 102px 88px;
+    
+}
+.main-description
+{
+    Width: 400px;
+}
+
+.job-title{
+font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+h1
+{
+    font-weight: 700;
+font-size: 45px;
+line-height: 55px;
+}
+.discription
+{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    margin-bottom: 40px;
+    color: #595959;
+    
+
+}
+h2{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+.list-primary{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    color: #000000;
+    padding-left: 0px;
+    list-style-position: inside;
+    margin-bottom: 51px;
+    
+    
+}
+.list-primary-item /*linki style dla linkow*/
+{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */   
+    color: #595959;
+    text-decoration-line: none;
+    padding: 0px;
+    list-style-position: inside;
+}
+
+.work-skills{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+.work-skills-colour
+{
+    color: #FB6D3A;
+}
+.date {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
